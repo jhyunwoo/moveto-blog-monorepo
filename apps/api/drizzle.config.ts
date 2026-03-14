@@ -1,8 +1,8 @@
 import { defineConfig } from "drizzle-kit";
 
 export default defineConfig({
-  out: "./drizzle",
-  schema: "./src/db/schema.ts",
+  out: "./src/lib/db/drizzle",
+  schema: "./src/lib/db/schema.ts",
   dialect: "sqlite",
   dbCredentials: {
     accountId: process.env.CLOUDFLARE_ACCOUNT_ID!,
