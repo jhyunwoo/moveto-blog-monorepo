@@ -2,7 +2,7 @@
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import type { Context } from "hono";
-import { getDb } from "../db";
+import { getDb } from "../../db";
 import { betterAuthOptions } from "./options";
 
 export function getAuth(c: Context) {

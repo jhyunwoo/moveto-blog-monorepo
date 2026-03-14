@@ -21,7 +21,8 @@
 		{
 			"binding": "db",
 			"database_name": "blog-db",
-			"database_id": "e4874eef-dd88-419b-94c9-b8c9cb3ec281"
+			"database_id": "e4874eef-dd88-419b-94c9-b8c9cb3ec281",
+			"migrations_dir": "src/db/drizzle"
 		}
 	]
 	/**
